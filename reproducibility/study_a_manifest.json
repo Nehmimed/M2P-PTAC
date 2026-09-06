@@ -1,0 +1,35 @@
+{
+  "attribution_anchor": "XGBoost (differenced target + drift bank)",
+  "confidence_interval": "two-sided Student-t with df=n_seeds-1",
+  "intensities": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "main_script": "/vscmnt/brussel_pixiu_data/_data_brussel/117/vsc11756/m2p_RR_Backup_delta/paper_release/src/m2p_ptac_study_ab_protocolfix.py",
+  "main_script_sha256": "a80f7f0b43c9be3d0702c08bc2b3ee9c5a93b2fb23f3d65c19c9ba591133a257",
+  "provenance_status": "verified",
+  "runner_script_sha256": "94226d61ca82daf698026f12ff69cf0e3f2f9c8dc8e2e57f41e5eb2382e3e868",
+  "runner_version": "study_a_v2_delta_anchor_student_t_provenance",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "selected_arm": "M2P-PTAC (C=0.0001)",
+  "selected_c": 0.0001,
+  "signs": [
+    -1.0,
+    1.0
+  ],
+  "targets": [
+    "temperature",
+    "ph",
+    "electric conductivity"
+  ]
+}

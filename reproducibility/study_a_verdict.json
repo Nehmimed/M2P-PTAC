@@ -1,0 +1,6 @@
+{
+ "green": false,
+ "n_cells": 18,
+ "n_green_cells": 0,
+ "criterion": "intensity>=2.0, >=ceil(0.80*seeds) positive, 95% CI>0, post-detection rescue>=0.20, nominal penalty<=0.020, amplification<=2x"
+}

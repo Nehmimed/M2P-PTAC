@@ -1,0 +1,75 @@
+{
+  "architecture_search_space": {
+    "ATTENTION_HEADS": [
+      2,
+      4,
+      8
+    ],
+    "BILSTM_UNITS": [
+      64,
+      80,
+      96,
+      112,
+      128
+    ],
+    "CONV_FILTERS": [
+      64,
+      80,
+      96,
+      112,
+      128
+    ],
+    "DROPOUT_RATE": [
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "HEAD_DENSE_UNITS": [
+      64,
+      128,
+      256
+    ]
+  },
+  "audited_source_sha256": "509244615da8a9e80ae7f333d0ba8d176d3ea50a905050ed999c20ec61bb4964",
+  "base_C_search_space": [
+    0.0001,
+    0.0005,
+    0.001,
+    0.005,
+    0.02
+  ],
+  "canonical_DQA_regenerated": false,
+  "config_defaults_patched": [
+    "LAMBDA_ANALYSIS_VALUES",
+    "N_ITER_SEARCH",
+    "STUDY_C_TARGETS",
+    "STUDY_C_VARIANTS"
+  ],
+  "fixed_method_design": {
+    "attention": true,
+    "cnn": true,
+    "safety_layers": [
+      "R28",
+      "R21",
+      "Point-R20",
+      "R19"
+    ],
+    "unified_encoder": false
+  },
+  "policy_search_space": {
+    "k": [
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "q": [
+      4.0,
+      8.0,
+      16.0,
+      32.0
+    ]
+  },
+  "public_source_sha256": "19092c64b7d54a1095f225904c0aaedc39455f08349b8b6d006011c03ce78864"
+}

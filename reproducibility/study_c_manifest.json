@@ -1,0 +1,49 @@
+{
+  "attribution_anchor": "XGBoost (differenced target + drift bank)",
+  "best_hyperparameters": {
+    "ATTENTION_HEADS": 2,
+    "BILSTM_UNITS": 80,
+    "CONV_FILTERS": 80,
+    "DROPOUT_RATE": 0.5,
+    "HEAD_DENSE_UNITS": 128
+  },
+  "confidence_interval": "paired/two-sided Student-t with df=n-1",
+  "full_arm": {
+    "t2_target": true,
+    "unified_encoder": false,
+    "use_attention": true,
+    "use_cnn": true
+  },
+  "intensities": [
+    0.1,
+    0.15,
+    0.2,
+    0.25
+  ],
+  "main_script": "/vscmnt/brussel_pixiu_data/_data_brussel/117/vsc11756/m2p_RR_Backup_delta/paper_release/src/m2p_ptac.py",
+  "main_script_sha256": "271cb25357b1900df238e9321d5be65b6f9bc1bbf5442da16f054b8d62fee6b5",
+  "metric_output": "post_veto",
+  "row_contract": 400,
+  "runner_script_sha256": "7c43f8452ef2773595739b69ebf560e378823a9da083682f2e7f1537c8633abd",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "study_c_version": "strong_mha_v2_four_target_post_veto_delta_reporting",
+  "targets": [
+    "temperature",
+    "ph",
+    "electric conductivity",
+    "dissolved oxygen"
+  ],
+  "variants": [
+    "Full",
+    "No Attention",
+    "No CNN",
+    "Unified Encoder",
+    "Ordinary Residual Target"
+  ]
+}

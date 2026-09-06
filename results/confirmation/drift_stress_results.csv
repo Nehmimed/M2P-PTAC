@@ -1,0 +1,17 @@
+Type,Level,Model,MAE,MAE_sd,uses_drift_bank,deterministic_across_seeds,n_seeds
+sudden_shift,0.0,LightGBM (drift bank),2.6324738780268495,0.0,True,True,5
+sudden_shift,0.0,M2P-PTAC,32.0836041531077,0.0,True,False,5
+sudden_shift,0.0,XGBoost,33.76879372420129,0.0,False,True,5
+sudden_shift,0.0,XGBoost (drift bank),32.0836041531077,0.0,True,True,5
+sudden_shift,1.0,LightGBM (drift bank),90.43707101661165,0.0,True,True,5
+sudden_shift,1.0,M2P-PTAC,96.47874946330492,1.7631989940261912,True,False,5
+sudden_shift,1.0,XGBoost,99.59440208939547,0.0,False,True,5
+sudden_shift,1.0,XGBoost (drift bank),99.02288129065936,0.0,True,True,5
+sudden_shift,2.0,LightGBM (drift bank),180.08237055615325,0.0,True,True,5
+sudden_shift,2.0,M2P-PTAC,173.97069507725567,1.832007438797916,True,False,5
+sudden_shift,2.0,XGBoost,189.29342334423652,0.0,False,True,5
+sudden_shift,2.0,XGBoost (drift bank),188.72190254550043,0.0,True,True,5
+sudden_shift,4.0,LightGBM (drift bank),359.43253098621193,0.0,True,True,5
+sudden_shift,4.0,M2P-PTAC,337.695406530237,3.2951619825752787,True,False,5
+sudden_shift,4.0,XGBoost,360.66326522754537,0.0,False,True,5
+sudden_shift,4.0,XGBoost (drift bank),360.56381008508276,0.0,True,True,5

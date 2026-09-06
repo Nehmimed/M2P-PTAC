@@ -1,0 +1,40 @@
+{
+  "attribution_anchor": "XGBoost (differenced target + drift bank)",
+  "catastrophic_threshold": 2.0,
+  "main_script": "/vscmnt/brussel_pixiu_data/_data_brussel/117/vsc11756/m2p_RR_Backup_delta/paper_release/src/m2p_ptac_study_ab_protocolfix.py",
+  "main_script_sha256": "a80f7f0b43c9be3d0702c08bc2b3ee9c5a93b2fb23f3d65c19c9ba591133a257",
+  "paired_uncertainty": "paired row bootstrap 95% CI and exact McNemar test",
+  "provenance_status": "verified",
+  "runner_script_sha256": "11275a9f8ac99514ec5fec76605e667d9817c70e39cedab50db849496269d534",
+  "runner_version": "study_b_v2_paired_risk_reporting_provenance",
+  "scenarios": [
+    "extreme_step_pos_2sigma",
+    "extreme_step_neg_2sigma",
+    "extreme_step_pos_4sigma",
+    "extreme_step_neg_4sigma",
+    "extreme_step_pos_6sigma",
+    "extreme_step_neg_6sigma",
+    "extreme_step_pos_8sigma",
+    "extreme_step_neg_8sigma",
+    "spike_burst_6sigma",
+    "spike_burst_8sigma",
+    "stuck_high",
+    "stuck_low",
+    "missing_burst_6",
+    "missing_burst_12",
+    "missing_burst_24",
+    "missing_burst_48",
+    "compound_step4_missing12",
+    "compound_step6_spikes",
+    "gradual_then_step4"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "selected_arm": "M2P-PTAC (C=0.0001)",
+  "selected_c": 0.0001
+}

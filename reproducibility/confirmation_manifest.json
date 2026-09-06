@@ -1,0 +1,28 @@
+{
+  "C": 0.0001,
+  "canonical_data_manifest_sha256": "3fd63eb4e248d3a4e4654edf454b2d9f12e67cab8eefe9c64963583b56944422",
+  "k": 1.0,
+  "pass_criteria": {
+    "each_target_nominal_rescue_ge": -0.02,
+    "each_target_positive_rescue_gt": 0.0,
+    "each_target_safety_coverage_ge": 0.8,
+    "fixed_weight_replay": true,
+    "macro_positive_rescue_gt": 0.2
+  },
+  "protocol": "M2P_PTAC_FOUR_TARGET_CONFIRMATION_V1",
+  "q": 32.0,
+  "seeds": [
+    88191,
+    26722,
+    35230,
+    45158,
+    73564
+  ],
+  "selected_configuration_sha256": "01ffa382210e46e49fde7c4e83ad460c50480e18ad94a57b8be44d53104c563b",
+  "targets": [
+    "temperature",
+    "ph",
+    "electric conductivity",
+    "dissolved oxygen"
+  ]
+}

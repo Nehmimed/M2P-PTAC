@@ -1,0 +1,47 @@
+__pycache__/
+*.pyc
+*.log
+paper_results/
+model_results*/
+confirmation_seeds_consumed.lock.json
+
+
+
+# Restricted/raw data
+
+cleaned_data/
+
+data/raw/
+
+
+
+# Runtime outputs
+
+paper_results/
+
+model_results*/
+
+*.log
+
+slurm-*.out
+
+
+
+# Secrets / local environments
+
+.env
+
+.env.*
+
+.venv/
+
+venv/
+
+
+
+# Python caches
+
+__pycache__/
+
+*.pyc
+

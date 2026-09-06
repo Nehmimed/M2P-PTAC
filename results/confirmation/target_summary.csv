@@ -1,0 +1,5 @@
+target,nominal_rescue_mean,positive_rescue_mean,positive_rescue_sd,safety_coverage,nominal_ok,rescue_ok,safety_ok
+dissolved oxygen,0.00032281941219026,0.4918354852973265,0.03506099403719327,1.0,True,True,True
+electric conductivity,0.0,0.05847220517919629,0.01075797038959336,1.0,True,True,True
+ph,0.00109182494116116,0.5050299811231578,0.03270149416547048,1.0,True,True,True
+temperature,0.0,0.32029252996942703,0.01265998635135886,1.0,True,True,True

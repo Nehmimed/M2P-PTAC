@@ -1,0 +1,81 @@
+Type,Level,seed,Model,MAE,uses_drift_bank,deterministic_across_seeds
+sudden_shift,0.0,88191,M2P-PTAC,32.0836041531077,True,False
+sudden_shift,0.0,88191,XGBoost (drift bank),32.0836041531077,True,True
+sudden_shift,0.0,88191,XGBoost,33.76879372420129,False,True
+sudden_shift,0.0,88191,LightGBM (drift bank),2.6324738780268495,True,True
+sudden_shift,0.0,26722,M2P-PTAC,32.0836041531077,True,False
+sudden_shift,0.0,26722,XGBoost (drift bank),32.0836041531077,True,True
+sudden_shift,0.0,26722,XGBoost,33.76879372420129,False,True
+sudden_shift,0.0,26722,LightGBM (drift bank),2.6324738780268495,True,True
+sudden_shift,0.0,35230,M2P-PTAC,32.0836041531077,True,False
+sudden_shift,0.0,35230,XGBoost (drift bank),32.0836041531077,True,True
+sudden_shift,0.0,35230,XGBoost,33.76879372420129,False,True
+sudden_shift,0.0,35230,LightGBM (drift bank),2.6324738780268495,True,True
+sudden_shift,0.0,45158,M2P-PTAC,32.0836041531077,True,False
+sudden_shift,0.0,45158,XGBoost (drift bank),32.0836041531077,True,True
+sudden_shift,0.0,45158,XGBoost,33.76879372420129,False,True
+sudden_shift,0.0,45158,LightGBM (drift bank),2.6324738780268495,True,True
+sudden_shift,0.0,73564,M2P-PTAC,32.0836041531077,True,False
+sudden_shift,0.0,73564,XGBoost (drift bank),32.0836041531077,True,True
+sudden_shift,0.0,73564,XGBoost,33.76879372420129,False,True
+sudden_shift,0.0,73564,LightGBM (drift bank),2.6324738780268495,True,True
+sudden_shift,1.0,88191,M2P-PTAC,94.93596438479705,True,False
+sudden_shift,1.0,88191,XGBoost (drift bank),99.02288129065936,True,True
+sudden_shift,1.0,88191,XGBoost,99.59440208939547,False,True
+sudden_shift,1.0,88191,LightGBM (drift bank),90.43707101661165,True,True
+sudden_shift,1.0,26722,M2P-PTAC,98.61706625445082,True,False
+sudden_shift,1.0,26722,XGBoost (drift bank),99.02288129065936,True,True
+sudden_shift,1.0,26722,XGBoost,99.59440208939547,False,True
+sudden_shift,1.0,26722,LightGBM (drift bank),90.43707101661165,True,True
+sudden_shift,1.0,35230,M2P-PTAC,98.17111675740452,True,False
+sudden_shift,1.0,35230,XGBoost (drift bank),99.02288129065936,True,True
+sudden_shift,1.0,35230,XGBoost,99.59440208939547,False,True
+sudden_shift,1.0,35230,LightGBM (drift bank),90.43707101661165,True,True
+sudden_shift,1.0,45158,M2P-PTAC,95.30695860828574,True,False
+sudden_shift,1.0,45158,XGBoost (drift bank),99.02288129065936,True,True
+sudden_shift,1.0,45158,XGBoost,99.59440208939547,False,True
+sudden_shift,1.0,45158,LightGBM (drift bank),90.43707101661165,True,True
+sudden_shift,1.0,73564,M2P-PTAC,95.3626413115865,True,False
+sudden_shift,1.0,73564,XGBoost (drift bank),99.02288129065936,True,True
+sudden_shift,1.0,73564,XGBoost,99.59440208939547,False,True
+sudden_shift,1.0,73564,LightGBM (drift bank),90.43707101661165,True,True
+sudden_shift,2.0,88191,M2P-PTAC,173.09205454211298,True,False
+sudden_shift,2.0,88191,XGBoost (drift bank),188.72190254550043,True,True
+sudden_shift,2.0,88191,XGBoost,189.29342334423652,False,True
+sudden_shift,2.0,88191,LightGBM (drift bank),180.08237055615325,True,True
+sudden_shift,2.0,26722,M2P-PTAC,175.63682978085652,True,False
+sudden_shift,2.0,26722,XGBoost (drift bank),188.72190254550043,True,True
+sudden_shift,2.0,26722,XGBoost,189.29342334423652,False,True
+sudden_shift,2.0,26722,LightGBM (drift bank),180.08237055615325,True,True
+sudden_shift,2.0,35230,M2P-PTAC,175.0537926517016,True,False
+sudden_shift,2.0,35230,XGBoost (drift bank),188.72190254550043,True,True
+sudden_shift,2.0,35230,XGBoost,189.29342334423652,False,True
+sudden_shift,2.0,35230,LightGBM (drift bank),180.08237055615325,True,True
+sudden_shift,2.0,45158,M2P-PTAC,174.90011552372218,True,False
+sudden_shift,2.0,45158,XGBoost (drift bank),188.72190254550043,True,True
+sudden_shift,2.0,45158,XGBoost,189.29342334423652,False,True
+sudden_shift,2.0,45158,LightGBM (drift bank),180.08237055615325,True,True
+sudden_shift,2.0,73564,M2P-PTAC,171.17068288788505,True,False
+sudden_shift,2.0,73564,XGBoost (drift bank),188.72190254550043,True,True
+sudden_shift,2.0,73564,XGBoost,189.29342334423652,False,True
+sudden_shift,2.0,73564,LightGBM (drift bank),180.08237055615325,True,True
+sudden_shift,4.0,88191,M2P-PTAC,339.6758527593946,True,False
+sudden_shift,4.0,88191,XGBoost (drift bank),360.56381008508276,True,True
+sudden_shift,4.0,88191,XGBoost,360.66326522754537,False,True
+sudden_shift,4.0,88191,LightGBM (drift bank),359.43253098621193,True,True
+sudden_shift,4.0,26722,M2P-PTAC,337.37200717720964,True,False
+sudden_shift,4.0,26722,XGBoost (drift bank),360.56381008508276,True,True
+sudden_shift,4.0,26722,XGBoost,360.66326522754537,False,True
+sudden_shift,4.0,26722,LightGBM (drift bank),359.43253098621193,True,True
+sudden_shift,4.0,35230,M2P-PTAC,339.6759296538016,True,False
+sudden_shift,4.0,35230,XGBoost (drift bank),360.56381008508276,True,True
+sudden_shift,4.0,35230,XGBoost,360.66326522754537,False,True
+sudden_shift,4.0,35230,LightGBM (drift bank),359.43253098621193,True,True
+sudden_shift,4.0,45158,M2P-PTAC,339.67577840811924,True,False
+sudden_shift,4.0,45158,XGBoost (drift bank),360.56381008508276,True,True
+sudden_shift,4.0,45158,XGBoost,360.66326522754537,False,True
+sudden_shift,4.0,45158,LightGBM (drift bank),359.43253098621193,True,True
+sudden_shift,4.0,73564,M2P-PTAC,332.07746465265996,True,False
+sudden_shift,4.0,73564,XGBoost (drift bank),360.56381008508276,True,True
+sudden_shift,4.0,73564,XGBoost,360.66326522754537,False,True
+sudden_shift,4.0,73564,LightGBM (drift bank),359.43253098621193,True,True

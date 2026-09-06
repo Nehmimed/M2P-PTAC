@@ -1,0 +1,126 @@
+{
+  "C": 0.0001,
+  "C_search_space": [
+    0.0001,
+    0.0005,
+    0.001,
+    0.005,
+    0.02
+  ],
+  "architecture": {
+    "ATTENTION_HEADS": 2,
+    "BILSTM_UNITS": 80,
+    "CONV_FILTERS": 80,
+    "DROPOUT_RATE": 0.5,
+    "HEAD_DENSE_UNITS": 128
+  },
+  "architecture_search_space": {
+    "ATTENTION_HEADS": [
+      2,
+      4,
+      8
+    ],
+    "BILSTM_UNITS": [
+      64,
+      80,
+      96,
+      112,
+      128
+    ],
+    "CONV_FILTERS": [
+      64,
+      80,
+      96,
+      112,
+      128
+    ],
+    "DROPOUT_RATE": [
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "HEAD_DENSE_UNITS": [
+      64,
+      128,
+      256
+    ],
+    "N_ITER_SEARCH": 25
+  },
+  "canonical_data_manifest_sha256": "3fd63eb4e248d3a4e4654edf454b2d9f12e67cab8eefe9c64963583b56944422",
+  "confirmation_seed_firewall": [
+    88191,
+    26722,
+    35230,
+    45158,
+    73564
+  ],
+  "development_seeds": [
+    42,
+    43,
+    44
+  ],
+  "fixed_method_design": {
+    "Point_R20": true,
+    "R17_TAU_KAPPA_LEVEL": 0.0,
+    "R19_safety_veto": true,
+    "R21_dynamic_selector": true,
+    "R28_hard_switch": true,
+    "attention": true,
+    "cnn": true,
+    "unified_encoder": false
+  },
+  "k": 1.0,
+  "policy_development_summary": {
+    "k": 1.0,
+    "macro_positive_rescue": 0.35343258543194783,
+    "minimum_nominal_rescue": 0.0,
+    "minimum_positive_rescue": 0.06631646697566888,
+    "minimum_safety_coverage": 1.0,
+    "q": 32.0,
+    "ready": true,
+    "replay_ok": true,
+    "target_summary": [
+      {
+        "nominal_rescue": 0.0,
+        "positive_rescue": 0.33128928575144523,
+        "safety_coverage": 1.0,
+        "target": "temperature"
+      },
+      {
+        "nominal_rescue": 0.002174865675486167,
+        "positive_rescue": 0.5073324392991369,
+        "safety_coverage": 1.0,
+        "target": "ph"
+      },
+      {
+        "nominal_rescue": 0.0,
+        "positive_rescue": 0.06631646697566888,
+        "safety_coverage": 1.0,
+        "target": "electric conductivity"
+      },
+      {
+        "nominal_rescue": 0.0,
+        "positive_rescue": 0.5087921497015404,
+        "safety_coverage": 1.0,
+        "target": "dissolved oxygen"
+      }
+    ]
+  },
+  "policy_search_space": {
+    "k": [
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "q": [
+      4.0,
+      8.0,
+      16.0,
+      32.0
+    ]
+  },
+  "protocol": "M2P_PTAC_FRESH_SELECTION_V1",
+  "q": 32.0
+}
